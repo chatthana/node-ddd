@@ -9,9 +9,26 @@ The application uses Grunt to transpile ES6/ES7 code into browser-compatible ES5
 ```bash
 npm install -gs grunt
 ```
+or
+
+```bash
+yarn global add grunt
+```
 
 Then install the local dependencies
 
 ```bash
 npm install
+```
+
+or
+
+```bash
+yarn
+```
+
+After installing the dependencies. You can transpile the application using the below command
+
+```bash
+grunt
 ```
